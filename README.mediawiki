@@ -1,4 +1,4 @@
-# Magma India Improvement Proposal (MIIP)
+Magma India Improvement Proposal (MIIP)
 
 {| class="wikitable sortable" style="width: auto; text-align: center; font-size: smaller; table-layout: fixed;"
 !Number
@@ -12,3 +12,4 @@
 | Nitin Rajput, Shubham Tatvamasi, Vipin Rathi
 | Informational
 | Final
+|- style="background-color: #cfffcf"
