@@ -114,6 +114,6 @@ func getTenantsData(baseAPI string) []byte {
 ```
 
 ## Result
-This is the result format.
+The result which we get on our terminal.
 
 ![Alt text](photos/result2.png?raw=true "Result")
