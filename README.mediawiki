@@ -18,4 +18,4 @@ Magma India Improvement Proposal (MIIP).
 | Nitin Rajput, Shubham Tatvamasi, Vipin Rathi
 | Process
 | Proposal
-}
+|}
