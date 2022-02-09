@@ -13,7 +13,7 @@ Magma India Improvement Proposal (MIIP).
 | Informational
 | Final
 |- style="background-color: #cfffcf"
-| [[|2]]
+| [[miip2.md|2]]
 | magctl
 | Nitin Rajput, Shubham Tatvamasi, Vipin Rathi
 | Process
