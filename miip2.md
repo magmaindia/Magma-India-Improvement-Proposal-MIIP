@@ -1,13 +1,15 @@
 ---
-miip: 1559
+miip: 2
 title: magctl
 author: Nitin Rajput, Shubham Tatvamasi, Vipin Rathi
 type: CLI Tool
-status: Final
+status: Proposal
 ---
 
 ## Simple Summary
 magctl is CLI Tool for magma, through which we will able to get results of list of tenants,feg,gateways on terminal itself. It will work similar to as kubectl in kubernetes. We are trying to use config in magctl similar to config used in kubernetes under .magmacli folder, so other can also easily access it.
+
+![Alt text](photos/diagm.png?raw=true "Diagram")
 
 ## Specification
 This is the example of code that will give list of all Tenants created.
@@ -27,9 +29,9 @@ import (
 	"github.com/spf13/cobra"
 )
 
-// getTenantsCmd represents the getTenants command
-var getTenantsCmd = &cobra.Command{
-	Use:   "getTenants",
+// TenantsCmd represents the Tenants command
+var TenantsCmd = &cobra.Command{
+	Use:   "Tenants",
 	Short: "List of all Tenants",
 	Long: `A longer description that spans multiple lines and likely contains examples
 and usage of using your command.`,
@@ -39,7 +41,7 @@ and usage of using your command.`,
 }
 
 func init() {
-	rootCmd.AddCommand(getTenantsCmd)
+	getCmd.AddCommand(TenantsCmd)
 }
 
 type Tenants struct {
