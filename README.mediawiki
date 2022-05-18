@@ -16,6 +16,6 @@ Magma India Improvement Proposal (MIIP).
 | [[miip2.md|2]]
 | magctl
 | Nitin Rajput, Shubham Tatvamasi, Vipin Rathi
-| Process
+| CLI Tool
 | Proposal
 |}
