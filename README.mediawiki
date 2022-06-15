@@ -13,7 +13,7 @@ Magma India Improvement Proposal (MIIP).
 | Informational
 | Final
 |- style="background-color: #cfffcf"
-| [[miip2.md|2]]
+| [[https://github.com/magmaindia/magctl|2]]
 | magctl
 | Nitin Rajput, Shubham Tatvamasi, Vipin Rathi
 | CLI Tool
